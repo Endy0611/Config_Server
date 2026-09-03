@@ -1,0 +1,4 @@
+app:
+  message: "Hello from Config Server - default profile"
+  feature:
+    new-ui-enabled: false

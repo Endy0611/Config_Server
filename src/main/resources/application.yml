@@ -8,3 +8,6 @@ spring:
           uri:
           default-label:
           clone-on-start:
+
+server:
+  port: 8888
