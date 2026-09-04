@@ -2,3 +2,4 @@ app:
   message: "Hello from Config Server - DEV v.1.0"
   feature:
     new-ui-enabled: true
+  secret: "{cipher}209bbe4155f6e8484a3b855e5acb1f471a4105f716ce368ad3e97d6b7af1621b"

@@ -10,5 +10,7 @@ spring:
           search-paths: config-repo #find folder in repo
           default-label: main # branch
           clone-on-start: true # clone at start
+encrypt:
+  key: ${ENCRYPT_KEY}
 server:
   port: 8888
