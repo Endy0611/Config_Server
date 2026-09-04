@@ -1,4 +1,4 @@
 app:
-  message: "Hello from Config Server - UPDATED VERSION 1.1"
+  message: "Hello from Config Server - DEV v.1.0"
   feature:
     new-ui-enabled: true

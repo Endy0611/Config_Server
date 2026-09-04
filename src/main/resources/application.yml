@@ -6,9 +6,9 @@ spring:
       server:
         git:
           uri: https://github.com/Endy0611/Config_Server.git
-          search-paths: config-repo
-          default-label: main
-          clone-on-start: true
-
+          # file://${user.home}/config-repo for local testing
+          search-paths: config-repo #find folder in repo
+          default-label: main # branch
+          clone-on-start: true # clone at start
 server:
   port: 8888
